@@ -1,0 +1,41 @@
+.contenidor-flex >div{
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.contenidor-flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: cornflowerblue;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+}
+
+.s{
+    order: -1;
+}
+.c1{
+    order: 1;
+}
+.c2{
+    order: 1;
+}
+.c3{
+    order: 0;
+}
+.c4{
+    order: 0;
+}
+.c5{
+    order: 1;
+}
+.c6{
+    order: 1;
+}
