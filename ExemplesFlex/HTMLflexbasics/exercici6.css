@@ -1,0 +1,47 @@
+.mosaic{
+    width: 150px;
+    height: 100px;
+    border-radius: 7px;
+    box-shadow: 3px 3px 5px grey;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenidor{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    gap: 15px;
+    padding: 25px;
+    border-radius: 5px;
+    max-width: 1000px;
+    width: 80%;
+
+}
+
+#mosaic1{
+    background-color: lightgray;
+}
+#mosaic2{
+    background-color: lightpink;
+}
+#mosaic3 {
+    background-color: lightcoral;
+}
+#mosaic4 {
+    background-color: lightseagreen;
+}
+#mosaic5 {
+    background-color: lightyellow;
+}
+#mosaic6 {
+    background-color: lightblue;
+}

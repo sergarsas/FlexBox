@@ -1,9 +1,24 @@
-#caixa1{
+.caixa{
+    height: 100px;
+    width: 100px;
+}
 
+#caixa1{
+    background-color: blue;
 }
 #caixa2{
+    background-color: red;
 
 }
 #caixa3{
+    background-color: green;
 
+}
+
+#flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
